@@ -27,6 +27,11 @@ html,body {
 
 .city{
   display: flex;
+  justify-content: space-between;
+}
+.scroll{
+  display: flex;
+  gap: 3px;
 }
 h1 {
   text-transform: uppercase;
@@ -34,3 +39,9 @@ h1 {
   font-size: 5.5em;
 }
 
+img{
+  width:100%;
+  object-fit: cover;
+  padding: 20px 0px;
+
+}
